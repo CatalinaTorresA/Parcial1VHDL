@@ -1,0 +1,4 @@
+signal cnt_tpm : unsigned (5 downto 0);
+begin
+	counter: process(clock, reset)
+	
